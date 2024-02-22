@@ -1,1 +1,1 @@
-![](https://github.com/Pilotebas/practicaFlexbox/blob/ejercicio1/storage/img/enunciado1.jpg)
+![](https://github.com/Pilotebas/practicaFlexbox/blob/ejercicio1/storage/img/enunciado1.png)
