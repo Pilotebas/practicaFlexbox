@@ -1,0 +1,1 @@
+![](https://github.com/Pilotebas/practicaFlexbox/blob/ejercicio6/storage/img/enunciado6.png)
