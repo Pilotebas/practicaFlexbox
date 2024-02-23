@@ -5,3 +5,34 @@
   margin: 0;
   box-sizing: border-box;
 }
+.container
+{
+  width: 100%;
+  padding: 50px 50px;
+}
+.container .menu
+{
+  list-style: none;
+  padding: 0px;
+}
+.container .menu li
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 8px;
+  margin-bottom: 1px;
+  background-color: beige;
+}
+.container .menu li a
+{
+  text-decoration: none;
+  color: black;
+}
+button
+{
+  padding: 1px;
+  text-align: center;
+  cursor: pointer;
+}
