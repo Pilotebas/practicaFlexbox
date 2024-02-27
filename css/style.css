@@ -14,13 +14,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background-color: #93d9e9;
 }
 .caja
 {
   width: 300px;
   min-height: 480px;
-  border: 0.2px solid black;
   border-radius: 10px;
   box-shadow: 1px 1px 8px rgb(63, 63, 63);
   display: flex;
@@ -34,7 +33,7 @@
   display: flex;
   width: 100%;
   height: 100%;
-  padding: 30px;
+  padding: 40px;
   justify-content: center;
   background-color: salmon;
   border-radius: 9px 8px 0px 0px;
@@ -46,8 +45,9 @@
 }
 .Contenido p
 {
-  padding-top: 30px;
   text-align: center;
+  border-bottom: 1px solid #ece7e7;
+  padding: 25px 0px 0px 0px;
 }
 .btn button
 {
