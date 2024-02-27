@@ -1,65 +1,95 @@
 @import url(variable.css);
-*
-{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-header
-{
+
+body {
+  overflow-y: scroll;
+  height: 1000px;
   width: 1000px;
-  height: 100vh;
+}
+
+header {
+  height: 15%;
+  background-color: #fa8071;
   display: flex;
   flex-direction: column;
-}
-header > div
-{
-  width: 100%;
-  background-color: #fa8071;
-}
-header > div > h1
-{
+  justify-content: space-evenly;
+  align-items: center;
   color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-  text-align: center;
-  padding: 35px 0px 15px 0px;
 }
-header > div > p
-{
-  color: white;
-  font-size: sans-serif;
-  text-align: center;
-  padding: 0px 0px 40px 0px;
-}
-header > nav
-{
-  width: 100%;
+
+.navigation {
+  height: 100%;
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  background-color: #18bd96;
+  background: #18bd96;
 }
-.idioma , .menu
-{
+
+.navigation div {
   display: flex;
-  justify-content: space-evenly;
-}
-.menu li
-{
-  display: flex;
-  padding:15px 2px 15px 15px;
+  flex-flow: row wrap;
+  justify-content: flex-start;
   list-style: none;
+  margin: 0;
 }
-.idioma li
-{
-  display: flex;
-  padding-right: 20px;
-}
-.menu li a, .idioma li a
-{
+.navigation a {
   text-decoration: none;
+  display: block;
+  padding: 1em;
   color: white;
-  font-family: sans-serif;
+}
+ul{
+  margin: 0px;
+}
+.navigation a:hover {
+  background: #18bd96;
+}
+
+.navigation li:nth-last-child(-n+2) {
+  justify-content: flex-end;
+}
+
+.centro {
+  display: flex;
+}
+
+aside {
+  padding: 10px;
+  background: #cccccc56;
+  width: 30vh;
+  height: 100%;
+}
+
+main {
+  padding: 10px;
+  overflow: hidden;
+}
+
+h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+img {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+main div {
+  border-bottom: 2px groove #adadad46;
+}
+
+main p {
+  padding: 4px;
+}
+
+footer {
+  height: 8%;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img200 {
+  height: 200px;
 }
