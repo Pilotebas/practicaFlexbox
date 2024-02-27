@@ -5,3 +5,61 @@
   margin: 0;
   box-sizing: border-box;
 }
+header
+{
+  width: 1000px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header > div
+{
+  width: 100%;
+  background-color: #fa8071;
+}
+header > div > h1
+{
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 35px 0px 15px 0px;
+}
+header > div > p
+{
+  color: white;
+  font-size: sans-serif;
+  text-align: center;
+  padding: 0px 0px 40px 0px;
+}
+header > nav
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background-color: #18bd96;
+}
+.idioma , .menu
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu li
+{
+  display: flex;
+  padding:15px 2px 15px 15px;
+  list-style: none;
+}
+.idioma li
+{
+  display: flex;
+  padding-right: 20px;
+}
+.menu li a, .idioma li a
+{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
