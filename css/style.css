@@ -18,12 +18,20 @@ body {
 .aside{
   width:220px;
   height: 760px;
-  background-color: aqua;
 }
 .aside_1{
   width: 220px;
   height: 60px;
-  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.aside_1 img{
+  width: 60px;
+  height: 60px;
+}
+.aside_1 h1{
+  font-size: 30px;
 }
 .aside_2{
   width: 220px;
