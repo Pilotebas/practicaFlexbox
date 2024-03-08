@@ -20,6 +20,76 @@ body {
   height: 760px;
   background-color: aqua;
 }
+.aside_1{
+  width: 220px;
+  height: 60px;
+  background-color: red;
+}
+.aside_2{
+  width: 220px;
+  height: 40px;
+  background-color: blue;
+}
+.aside_3{
+  width: 220px;
+  height: 40px;
+  background-color: yellow;
+}
+.aside_4{
+  width: 220px;
+  height: 40px;
+  background-color: green;
+}
+.aside_5{
+  width: 220px;
+  height: 40px;
+  background-color: purple;
+}
+.aside_6{
+  width: 220px;
+  height: 40px;
+  background-color: orange;
+}
+.aside_7{
+  width: 220px;
+  height: 40px;
+  background-color: pink;
+}
+.aside_8{
+  width: 220px;
+  height: 40px;
+  background-color: brown;
+}
+.aside_9{
+  width: 220px;
+  height: 40px;
+  background-color: gray;
+}
+.aside_10{
+  width: 220px;
+  height: 160px;
+  background-color: black;
+}
+.aside_11{
+  width: 220px;
+  height: 40px;
+  background-color: #3b2424;
+}
+.aside_12{
+  width: 220px;
+  height: 40px;
+  background-color: #539b3d;
+}
+.aside_13{
+  width: 220px;
+  height: 40px;
+  background-color: #e6e950;
+}
+.aside_14{
+  width: 220px;
+  height: 100px;
+  background-color: #7c676785;
+}
 .article{
   width: 420px;
   height: 760px;
