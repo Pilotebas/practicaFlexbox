@@ -25,6 +25,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  border: 1px dashed black;
 }
 .aside_1 img{
   width: 60px;
@@ -40,6 +41,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  border: 1px dashed black;
 }
 .aside_2 i{
   font-size: 40px;
@@ -60,37 +62,47 @@ body {
   width: 60px;
   height: 40px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  border: 1px dashed black;
 }
 .aside_3 .parrafo h1{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
-  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3px;
 }
 .aside_3 .vacio{
   width: 150px;
   height: 40px;
+  border: 1px dashed black;
 }
-.aside_4{
+.aside_4, .aside_5, .aside_6{
   width: 220px;
   height: 40px;
-  background-color: green;
+  display: flex;
+  align-items: center;
 }
-.aside_5{
-  width: 220px;
+.aside_4 i, .aside_5 i, .aside_6 i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
   height: 40px;
-  background-color: purple;
+  font-size: 30px;
+  border: 1px dashed black;
 }
-.aside_6{
-  width: 220px;
+.aside_4 h1, .aside_5 h1, .aside_6 h1{
+  width: 150px;
   height: 40px;
-  background-color: orange;
+  padding-top: 8px;
+  padding-left: 10px;
+  border: 1px dashed black;
 }
 .aside_7{
-  width: 220px;
+  width: 210px;
   height: 40px;
-  background-color: pink;
+  border: 1px dashed black;
 }
 .aside_8{
   width: 220px;
