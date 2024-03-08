@@ -32,11 +32,24 @@ body {
 }
 .aside_1 h1{
   font-size: 30px;
+  font-weight: lighter;
 }
 .aside_2{
   width: 220px;
   height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color: blue;
+}
+.aside_2 i{
+  font-size: 40px;
+  padding-left: 5px;
+}
+.aside_2 h1{
+  font-size: 20px;
+  padding-left: 8px;
+  font-weight: lighter;
 }
 .aside_3{
   width: 220px;
