@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1{
+  font-weight: lighter;
+}
 body {
   background-color: grey;
   display: flex;
@@ -222,12 +225,12 @@ body {
 .article{
   width: 420px;
   height: 760px;
-  background-color: blue;
+  /* background-color: blue; */
+  border: 1px dashed black;
 }
 .header{
   width: 420px;
   height: 60px;
-  background-color: white;
   border: 1px dashed black;
 }
 .header i{
@@ -237,4 +240,27 @@ body {
   height: 60px;
   font-size: 40px;
   padding-left: 8px;
+}
+.dashboard{
+  width: 420px;
+  height: 60px;
+}
+.dashboard .container{
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 13px;
+  border: 1px dashed black;
+}
+.dashboard .container h1{
+  font-size:  25px;
+}
+.titulo{
+  width: 260px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px
 }
