@@ -22,7 +22,6 @@ body {
 .aside{
   width:220px;
   height: 760px;
-  border: 1px dashed black;
 }
 .aside_1{
   width: 220px;
@@ -30,7 +29,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px dashed black;
+  border-left: 1px dashed black;
+  border-top: 1px dashed black;
 }
 .aside_1 img{
   width: 60px;
@@ -46,7 +46,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px dashed black;
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+  border-left: 1px dashed black;
 }
 .aside_2 i{
   font-size: 40px;
@@ -67,7 +69,7 @@ body {
   width: 60px;
   height: 40px;
   display: flex;
-  border: 1px dashed black;
+  border-left: 1px dashed black;
 }
 .aside_3 .parrafo h1{
   font-size: 18px;
@@ -80,7 +82,8 @@ body {
 .aside_3 .vacio{
   width: 150px;
   height: 40px;
-  border: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
 }
 .aside_4, .aside_5, .aside_6{
   width: 220px;
@@ -107,7 +110,8 @@ body {
 .aside_7{
   width: 210px;
   height: 40px;
-  border: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
 }
 .aside_8{
   width: 220px;
@@ -119,7 +123,8 @@ body {
   width: 60px;
   height: 40px;
   display: flex;
-  border: 1px dashed black;
+  border-left: 1px dashed black;
+  border-top: 1px dashed black;
 }
 .aside_8 .parrafo h1{
   font-size: 18px;
@@ -148,14 +153,16 @@ body {
   width: 60px;
   height: 40px;
   font-size: 30px;
-  border: 1px dashed black;
+  border-left: 1px dashed black;
+  border-top: 1px dashed black;
 }
 .aside_9 h1 {
   width: 150px;
   height: 40px;
   padding-top: 8px;
   padding-left: 10px;
-  border: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
   }
 .aside_10{
   width: 210px;
@@ -170,7 +177,7 @@ body {
 .aside_10 .middle{
   width: 40px;
   height: 160px;
-  border: 1px dashed black;
+  border-top: 1px dashed black;
 }
 .aside_10 .right{
   width: 110px;
@@ -188,7 +195,6 @@ body {
   font-size: 18px;
   font-weight: lighter;
 }
-
 .aside_11, .aside_12, .aside_13{
   width: 220px;
   height: 40px;
@@ -231,7 +237,7 @@ body {
 .header{
   width: 420px;
   height: 60px;
-  border: 1px dashed black;
+  border-bottom: 1px dashed black;
 }
 .header i{
   display: flex;
@@ -251,16 +257,96 @@ body {
   display: flex;
   align-items: center;
   padding-left: 13px;
-  border: 1px dashed black;
+  border-bottom: 1px dashed black;
+  border-right: 1px dashed black;
 }
 .dashboard .container h1{
   font-size:  25px;
 }
 .titulo{
   width: 260px;
-  height: 60px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 25px
+}
+.main{
+  width: 380px;
+  height: 600px;
+  border-left: 1px dashed black;
+  border-top: 1px dashed black;
+  border-right: 1px dashed black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.info{
+  width: 380px;
+  height: 200px;
+  margin: 0 auto;
+}
+.pagina{
+  width: 340px;
+  height: 360px;
+  margin: 0 auto;
+  border-top: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info_arriba{
+  width: 350px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.info_abajo{
+  width: 350px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.info_arriba_1, .info_arriba_2{
+  width: 165px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  border: 1px dashed black;
+}
+.info_abajo_1, .info_abajo_2{
+  width: 165px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  border: 1px dashed black;
+}
+.pag_titulo{
+  width: 80px;
+  height: 80px;
+  
+}
+.pag_titulo h1{
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  padding: 20px 0px 0px 20px;
+}
+.pagina2{
+  margin: 0 auto;
+  width: 320px;
+  height: 260px;
+  border-top: 1px dashed black;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+  display: flex;
+  
 }
