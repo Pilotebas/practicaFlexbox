@@ -40,7 +40,6 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: blue;
 }
 .aside_2 i{
   font-size: 40px;
@@ -54,7 +53,24 @@ body {
 .aside_3{
   width: 220px;
   height: 40px;
-  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+}
+.aside_3 .parrafo{
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aside_3 .parrafo h1{
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 10px;
+}
+.aside_3 .vacio{
+  width: 150px;
+  height: 40px;
 }
 .aside_4{
   width: 220px;
